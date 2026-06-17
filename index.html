@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — FeedZero</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #FAF8F4;
+      color: #2C2C3E;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #1A1A2E;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+    }
+
+    .logo span {
+      color: #F28C38;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .page-title {
+      font-size: 32px;
+      font-weight: 700;
+      color: #2C2C3E;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 14px;
+      color: #9A9A9A;
+      margin-bottom: 48px;
+    }
+
+    .intro {
+      background: #FFF3E0;
+      border-left: 4px solid #F28C38;
+      border-radius: 0 8px 8px 0;
+      padding: 20px 24px;
+      margin-bottom: 48px;
+      font-size: 15px;
+      color: #2C2C3E;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #2C2C3E;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #EDE8E1;
+    }
+
+    p {
+      font-size: 15px;
+      color: #2C2C3E;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #2C2C3E;
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      color: #F28C38;
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+
+    th {
+      background: #1A1A2E;
+      color: #ffffff;
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #EDE8E1;
+      color: #2C2C3E;
+    }
+
+    tr:nth-child(even) td {
+      background: #FFF3E0;
+    }
+
+    .contact-box {
+      background: #1A1A2E;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+
+    .contact-box p {
+      color: #FAF8F4;
+      margin-bottom: 8px;
+    }
+
+    .contact-box a {
+      color: #F28C38;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid #EDE8E1;
+      font-size: 13px;
+      color: #9A9A9A;
+    }
+
+    footer .logo-small {
+      font-size: 16px;
+      font-weight: 700;
+      color: #2C2C3E;
+      margin-bottom: 8px;
+    }
+
+    footer .logo-small span {
+      color: #F28C38;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 32px 16px 60px; }
+      .page-title { font-size: 26px; }
+      header { padding: 20px 16px; }
+      table { font-size: 13px; }
+      th, td { padding: 10px 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Feed<span>Zero</span></div>
+  </header>
+
+  <div class="container">
+
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="last-updated">Last updated: June 2026</p>
+
+    <div class="intro">
+      FeedZero is a focus app that blocks social media during your sessions. We collect the minimum data needed to run the app — nothing more. This page explains exactly what we collect, why, and how it is stored.
+    </div>
+
+    <!-- Section 1 -->
+    <section>
+      <h2>1. Who We Are</h2>
+      <p>FeedZero is developed and maintained as an independent Android application. If you have any questions about this policy, you can reach us at <span class="highlight">hello@feedzero.in</span>.</p>
+    </section>
+
+    <!-- Section 2 -->
+    <section>
+      <h2>2. What Data We Collect</h2>
+      <p>We collect only what is necessary to create your account and run the app.</p>
+      <table>
+        <tr>
+          <th>Data</th>
+          <th>Why we collect it</th>
+          <th>Where it is stored</th>
+        </tr>
+        <tr>
+          <td>Full name</td>
+          <td>Displayed in your home screen greeting</td>
+          <td>Firebase Firestore (Google)</td>
+        </tr>
+        <tr>
+          <td>Email address</td>
+          <td>Login and password reset only</td>
+          <td>Firebase Authentication (Google)</td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>Account access</td>
+          <td>Hashed by Firebase — never stored in plain text</td>
+        </tr>
+        <tr>
+          <td>Session history</td>
+          <td>Stats and streak tracking</td>
+          <td>Firebase Firestore (Google)</td>
+        </tr>
+        <tr>
+          <td>Focus streak</td>
+          <td>Habit tracking</td>
+          <td>Firebase Firestore (Google)</td>
+        </tr>
+      </table>
+      <p>We do <span class="highlight">not</span> collect your phone number, location, date of birth, profile photo, or any other personal data.</p>
+    </section>
+
+    <!-- Section 3 -->
+    <section>
+      <h2>3. What We Do Not Collect</h2>
+      <ul>
+        <li>We do not read the content of your notifications.</li>
+        <li>We do not track which apps you use outside of focus sessions.</li>
+        <li>We do not collect your browsing history.</li>
+        <li>We do not sell your data to any third party.</li>
+        <li>We do not show ads — FeedZero is completely ad-free.</li>
+        <li>We do not share your data with any third party except Google (Firebase) for storage and authentication.</li>
+      </ul>
+    </section>
+
+    <!-- Section 4 -->
+    <section>
+      <h2>4. Permissions We Use</h2>
+      <p>FeedZero requires three special Android permissions to function. Here is exactly what each one does:</p>
+      <table>
+        <tr>
+          <th>Permission</th>
+          <th>What it does</th>
+          <th>What it does NOT do</th>
+        </tr>
+        <tr>
+          <td>Accessibility Service</td>
+          <td>Detects when a blocked app is opened and redirects you back to FeedZero</td>
+          <td>Does not read screen content, passwords, or any personal data</td>
+        </tr>
+        <tr>
+          <td>Usage Access</td>
+          <td>Reads daily app usage time to calculate your focus stats and streaks</td>
+          <td>Does not transmit app usage data to any server</td>
+        </tr>
+        <tr>
+          <td>Notification Listener</td>
+          <td>Silences notifications from blocked apps during an active session</td>
+          <td>Does not read notification content — only reads the app package name</td>
+        </tr>
+      </table>
+      <p>None of these permissions are used to collect, transmit, or share data with any third party.</p>
+    </section>
+
+    <!-- Section 5 -->
+    <section>
+      <h2>5. How We Store Your Data</h2>
+      <p>Your account data is stored securely on Google's Firebase infrastructure. Firebase Authentication and Firestore are GDPR-compliant services operated by Google LLC.</p>
+      <p>Session history and streak data are stored in Firestore and are linked to your account UID. This data persists across reinstalls so you never lose your progress.</p>
+      <p>A local cache of your app allowlist is stored on your device using AsyncStorage. This cache is scoped to your account and is used to support offline session starts.</p>
+    </section>
+
+    <!-- Section 6 -->
+    <section>
+      <h2>6. Data Retention</h2>
+      <p>Your data is retained for as long as your account exists. If you delete your account, all associated data including your name, email, session history, and streak data will be permanently deleted from our systems within 30 days.</p>
+      <p>To request account deletion, contact us at <span class="highlight">hello@feedzero.in</span> with the subject line "Account Deletion Request".</p>
+    </section>
+
+    <!-- Section 7 -->
+    <section>
+      <h2>7. Children's Privacy</h2>
+      <p>FeedZero is not directed at children under the age of 13. We do not knowingly collect personal data from children under 13. If you believe a child under 13 has provided us with personal data, please contact us at <span class="highlight">hello@feedzero.in</span> and we will delete it immediately.</p>
+    </section>
+
+    <!-- Section 8 -->
+    <section>
+      <h2>8. Your Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access the personal data we hold about you</li>
+        <li>Request correction of inaccurate data</li>
+        <li>Request deletion of your account and all associated data</li>
+        <li>Withdraw consent at any time by deleting your account</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at <span class="highlight">hello@feedzero.in</span>.</p>
+    </section>
+
+    <!-- Section 9 -->
+    <section>
+      <h2>9. Third-Party Services</h2>
+      <p>FeedZero uses the following third-party services:</p>
+      <table>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+          <th>Privacy Policy</th>
+        </tr>
+        <tr>
+          <td>Firebase Authentication</td>
+          <td>Account login and email verification</td>
+          <td>policies.google.com/privacy</td>
+        </tr>
+        <tr>
+          <td>Firebase Firestore</td>
+          <td>Storing session data and user profiles</td>
+          <td>policies.google.com/privacy</td>
+        </tr>
+        <tr>
+          <td>Sentry</td>
+          <td>Crash reporting and error monitoring</td>
+          <td>sentry.io/privacy</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Section 10 -->
+    <section>
+      <h2>10. Changes to This Policy</h2>
+      <p>If we make material changes to this Privacy Policy, we will update the "Last updated" date at the top of this page. Continued use of FeedZero after any changes constitutes acceptance of the updated policy.</p>
+    </section>
+
+    <!-- Section 11 -->
+    <section>
+      <h2>11. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy or how your data is handled, please contact us:</p>
+      <div class="contact-box">
+        <p>📧 Email: <a href="mailto:hello@feedzero.in">hello@feedzero.in</a></p>
+        <p>🌐 Website: <a href="https://feedzero.in">feedzero.in</a></p>
+        <p style="margin-top: 12px; font-size: 13px; color: #9A9A9A;">We aim to respond to all privacy inquiries within 48 hours.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="logo-small">Feed<span>Zero</span></div>
+    <p>No exit. No excuses. Just focus.</p>
+    <p style="margin-top: 8px;">© 2026 FeedZero. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
